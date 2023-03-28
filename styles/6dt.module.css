@@ -1,0 +1,42 @@
+.profileCard2 {
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    max-width: 270px;
+    max-height: 270px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+.profileCard2 img {
+    display: block;
+    max-width: 270px;
+    max-height: 270px;
+    width: auto;
+    height: auto;
+    background-position: center;
+    transition: all linear 0.25s;
+}
+
+.profileCard2 .profileName {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: 20px 0px 20px rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profileCard2:hover img {
+    transform: scale(1.1);
+}
+
+.profileCard2:hover .profileName {
+    bottom: 80px;
+}
